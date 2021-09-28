@@ -13,3 +13,22 @@ const connect = () => {mongoose.connect(
 }  
 module.exports = { connect }
 
+// const mongoose = require('mongoose') //conecta como mongodb
+
+// const connect = () => {mongoose.connect( //parametros da função
+//   'mongodb://localhost:27017/leao', 
+  
+//   {
+
+//   useNewUrlParser: true,  //isso é padão
+//   useUnifiedTopology: true
+
+// })
+
+// .then(console.log('Database conectada com sucesso.'))
+//   .catch(err => console.err) //se der erro
+
+
+// }
+
+// module.exports = { connect }
